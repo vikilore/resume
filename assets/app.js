@@ -196,6 +196,13 @@ function displayExperience(sectionId, experiences) {
 				titleElement.className = 'experience_company';
 				titleElement.textContent = experience.company;
 				section.appendChild(titleElement);
+
+				if (experience.summary) {
+					const summaryItem = document.createElement('p');
+					summaryItem.className = 'experience_summary';
+					summaryItem.innerHTML = experience.summary;
+					section.appendChild(summaryItem);
+				}
 			}
 
 			const subtitleElement = document.createElement('h4');
@@ -225,13 +232,6 @@ function displayExperience(sectionId, experiences) {
 
 				// Append the locationDateContainer to subtitleElement
 				subtitleElement.appendChild(locationDateContainer);
-			}
-
-			if (experience.summary) {
-				const summaryItem = document.createElement('p');
-				summaryItem.className = 'experience_summary';
-				summaryItem.innerHTML = experience.summary;
-				section.appendChild(summaryItem);
 			}
 
 			if (experience.responsibilities && experience.responsibilities.length > 0) {
