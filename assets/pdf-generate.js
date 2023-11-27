@@ -21,22 +21,24 @@ async function generateResume() {
         },
         pagebreak: {
             mode: ['avoid-all', 'css', 'legacy']
-        }
+        },
+        // Add the promise option
+        promise: true
     };
 
     var container = document.getElementById('container');
     container.classList.add("pdf-container");
 
-    // Wrap the html2pdf call in a Promise
-    return new Promise((resolve, reject) => {
-        html2pdf(container, opt, () => {
-            container.classList.remove("pdf-container");
-            resolve();
-        }, (error) => {
-            container.classList.remove("pdf-container");
-            reject(error);
-        });
-    });
+    try {
+        // Use await with the html2pdf function directly
+        await html2pdf().from(container).set(opt).save();
+        container.classList.remove("pdf-container");
+        console.log('PDF generated successfully!');
+    } catch (error) {
+        container.classList.remove("pdf-container");
+        console.error('Error generating PDF:', error);
+        throw error; // Rethrow the error to be caught in the calling function
+    }
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
@@ -47,6 +49,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         try {
             // Generate the PDF
             await generateResume();
+            console.log('PDF generation successful!');
         } catch (error) {
             console.error('Error generating PDF:', error);
         }
