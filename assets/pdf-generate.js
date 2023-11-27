@@ -3,7 +3,7 @@
 // Generate PDF with html2pdf.js
 function generateResume() {
     let opt = {
-        margin: [0, 0, 0, 0],
+        margin: [-10, -2, 0, -2],
         filename: 'myResumeCV-light.pdf',
         image: {
             type: 'png',
