@@ -132,7 +132,9 @@ h4 {
 }
 
 .experience_summary {
+  margin-top: -10px;
   font-style: italic;
+  font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 
