@@ -1,9 +1,8 @@
 /* Generate PDF */
 
 // Generate PDF with html2pdf.js
-function generateResume() {
+async function generateResume() {
     let opt = {
-        margin: [-10, -2, 0, -2],
         filename: 'myResumeCV-light.pdf',
         image: {
             type: 'png',
@@ -14,33 +13,39 @@ function generateResume() {
             useCORS: true,
             dpi: 300,
             letterRendering: true,
-            // media: 'print'
         },
         jsPDF: {
             format: 'a4',
             orientation: 'portrait',
             unit: 'mm'
         },
-        // pagebreak: {
-        //     mode: 'avoid-all'
-        // }, // Avoid page breaks inside elements
-        // html2pdf: {
-        //     media: 'print', // Use the print media type
-        // },
     };
 
     var container = document.getElementById('container');
-    html2pdf(container, opt);
+    container.classList.add("pdf-container");
+
+    // Wrap the html2pdf call in a Promise
+    return new Promise((resolve, reject) => {
+        html2pdf(container, opt, () => {
+            container.classList.remove("pdf-container");
+            resolve();
+        }, (error) => {
+            container.classList.remove("pdf-container");
+            reject(error);
+        });
+    });
 }
 
-
 window.addEventListener("DOMContentLoaded", (event) => {
-
     const pdfButton = document.getElementById('pdf-button');
 
     // Action executed by clicking on the button => generation of the final PDF CV CV
-    pdfButton.addEventListener("click", () => {
-        // Generate the PDF
-        generateResume();
-    })
+    pdfButton.addEventListener("click", async () => {
+        try {
+            // Generate the PDF
+            await generateResume();
+        } catch (error) {
+            console.error('Error generating PDF:', error);
+        }
+    });
 });
