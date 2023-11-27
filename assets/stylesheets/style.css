@@ -44,6 +44,7 @@ body.dark-theme {
 .right-column {
   color: var(--text-color);
   background-color: var(--container-color);
+  flex: 2;
 }
 
 .left-column {
@@ -66,10 +67,6 @@ body.dark-theme {
 
 .left-column body {
   color: var)--text-color-left);
-}
-
-.right-column {
-  flex: 2;
 }
 
 /* Headers */
@@ -308,7 +305,7 @@ a {
   .right-column {
     flex: 1;
     max-width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: var(--container-color);
   }
 
@@ -360,9 +357,8 @@ a {
 
 .pdf-container {
   margin-top: -10px;
-  margin-bottom: 10px;
+  padding-bottom: -20px;
   margin-left: -8px;
   font-size: 0.8rem;
-
-  max-height: 100%;
+  height: 100%;
 }
