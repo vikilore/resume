@@ -1,14 +1,6 @@
 /* Google Font Poppins */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
 
-@media print {
-  body {
-    width: 8.25in;
-    height: 11.75in;
-    margin: 0 0 0 0;
-  }
-}
-
 /* Variables */
 :root {
   --header-height: 3rem;
