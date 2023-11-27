@@ -19,6 +19,9 @@ async function generateResume() {
             orientation: 'portrait',
             unit: 'mm'
         },
+        pagebreak: {
+            mode: ['avoid-all', 'css', 'legacy']
+        }
     };
 
     var container = document.getElementById('container');

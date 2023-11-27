@@ -193,6 +193,7 @@ function displayExperience(sectionId, experiences) {
 
 			if (!isSameCompany) {
 				const titleElement = document.createElement('h3');
+				titleElement.className = 'experience_company';
 				titleElement.textContent = experience.company;
 				section.appendChild(titleElement);
 			}
