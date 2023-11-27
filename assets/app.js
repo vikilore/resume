@@ -202,14 +202,30 @@ function displayExperience(sectionId, experiences) {
 			subtitleElement.innerHTML = experience.position;
 			section.appendChild(subtitleElement);
 
-
 			if (experience.location) {
-				const locationItem = document.createElement('p');
-				locationItem.className = 'experience_location';
-				locationItem.innerHTML = `${experience.location} ${experience.date}`;
-				section.appendChild(locationItem);
-			}
+				// Create a div to contain the location and date
+				const locationDateContainer = document.createElement('div');
+				locationDateContainer.className = 'location-date-container';
 
+				// Create a span for the location
+				const locationSpan = document.createElement('span');
+				locationSpan.className = 'experience_location';
+				locationSpan.innerHTML = experience.location;
+
+				// Append the location span to the container
+				locationDateContainer.appendChild(locationSpan);
+
+				// Create a span for the date
+				const dateSpan = document.createElement('span');
+				dateSpan.className = 'experience_date';
+				dateSpan.innerHTML = `( ${experience.date} )`;
+
+				// Append the date span to the container
+				locationDateContainer.appendChild(dateSpan);
+
+				// Append the locationDateContainer to subtitleElement
+				subtitleElement.appendChild(locationDateContainer);
+			}
 
 			if (experience.summary) {
 				const summaryItem = document.createElement('p');

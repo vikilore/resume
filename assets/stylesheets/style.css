@@ -114,10 +114,25 @@ h4 {
   font-size: 1.6rem;
 }
 
+.location-date-container {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  font-style: italic; 
+}
+
 .experience_location {
+  margin-right: 10px;
+}
+
+.experience_location,
+.experience_date {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
 }
 
 .experience_summary {
+  font-style: italic;
   margin-bottom: 1rem;
 }
 
