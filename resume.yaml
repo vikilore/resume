@@ -1,0 +1,163 @@
+primaryColor: "#83C2EA"
+secondaryColor: "#34485d"
+contact:
+  image: assets/images/profile.png
+  name: Kevin Ciarniello
+  profession: Senior iOS Engineer
+  location: Vienna, Austria
+  email: kciarnie@gmail.com
+  phone: "+436601823848"
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/kciarnie/
+  - name: GitHub
+    url: https://www.github.com/kciarnie/
+summary: I am a software engineer with 10+ years of experience in mobile app development. I am passionate about building products that are scalable, maintainable, and user-friendly. I am a team player who enjoys collaborating with others to solve problems and learn new things.
+experience:
+  - company: MeisterLabs
+    position: Senior iOS Developer
+    date: Sep 2020 -- Present
+    location: Vienna, Austria
+    responsibilities:
+      - Develop features and refactor legacy code for the new MindMapping application
+      - Create CI/CD, update packages to new Apple Frameworks, support old legacy features, write tests
+      - Refactor Objective-C to Swift/SwiftUI, keep the project up-to-date with new technologies, Core-Data, Combine
+
+  - company: Apple
+    position: Software Development Engineer
+    date: Jan 2018 -- Jan 2019
+    location: Vancouver, Canada
+    responsibilities:
+      - Develop technologies for the 1st trillion dollar company
+      - Engineer on Xcode Cloud
+
+  - company: Buddybuild
+    position: Engineer
+    date: Jun 2017 -- Jan 2018
+    location: Vancouver, Canada
+    responsibilities:
+      - Develop and maintain CI/CD solution for both iOS and Android Platforms
+      - Buddybuild SDK support for the Android Platform
+      - Android CI/CD development and integration from start to deployment of Android projects
+      - Provide technical support with engineers
+
+  - company: Eventbase Technology
+    position: Senior Software Developer
+    date: Sep 2016 -- May 2017
+    location: Vancouver, Canada
+    summary: Eventbase is the leading mobile technology platform for events. Half of the top 20 technology companies in the world trust Eventbase to power their event apps.
+    responsibilities:
+      - Assist in Android and iOS Development
+      - Automate processes using Python to service over 100+ Event Apps
+      - iOS and Android development on the core product facilitating more than 100+ apps/year
+      - Create tools to speed up QA processes
+      - Create a private Python Module for aiding in developer/tester and automation
+      - Set up a Continuous Integration Environment to deploy builds and get configuration running faster
+
+  - company: Vonigo
+    position: Senior Full-stack Developer
+    date: Nov 2015 -- Aug 2016
+    location: Vancouver, Canada
+    responsibilities:
+      - Switched to being a .NET Developer when help was needed
+      - MSSQL/.NET developer working on back-end features
+      - Developed the Vonigo API (api.vonigo.com), helped with the test harness for automated API testing
+      - Set up the CI/CD Environment
+      - Optimized current systems, store procedures, and the web application servicing more than 1000 work orders a day
+
+  - company: Vonigo
+    position: Senior Android Developer
+    date: Mar 2014 -- Nov 2015
+    location: Vancouver, Canada
+    responsibilities:
+      - Developed the Vonigo application on Android
+      - XSLT/XML to HTML development
+      - Cross-platform hybrid architecture implementing JavaScript/CSS/HTML and native functionality
+
+  - company: QuickMobile (cEvent)
+    position: Senior Mobile Developer, Lead
+    date: Mar 2010 -- Nov 2013
+    location: Vancouver, Canada
+    responsibilities:
+      - Became a lead developer in the apps industry that serviced many Fortune 500 companies
+      - Lead Developer for Android/BlackBerry in a start-up environment
+      - Worked on over 100+ iPhone, Android, and BlackBerry Applications
+      - Worked extensively on iPhone and Android Framework
+      - Created Automation and test scripts for iPhone/Android/BlackBerry
+      - Developed BlackBerry Framework
+      - Traveled internationally to interface with and support key clients (McDonald's, Intel, Google)
+      - Helped grow the company from 7 to over 200 Employees
+
+  - company: Redback Networks (Ericcson)
+    position: Software Developer
+    date: Jan 2008 -- Jan 2009
+    location: Burnaby, BC, Canada
+    responsibilities:
+      - Data-driven development by creating analytics of all calls to the SmartEdge Routers
+      - Automation and test scripts using Perl and Bash
+      - Implemented cross-communication using SOAP, XML/XSD/XSLT, and Java
+
+  - company: BlackBerry
+    position: Security Software Developer (Intern)
+    date: May 2006 -- Sep 2006
+    location: Waterloo, ON, Canada
+    responsibilities:
+      - Helped fix bugs and understand security at BlackBerry
+      - Bug fixes, device-side PGP/SSP implementation in Java
+
+  - company: BlackBerry
+    position: Retail Applications Developer (Intern)
+    date: Sep 2005 -- Jan 2006
+    location: Waterloo, ON, Canada
+    responsibilities:
+      - Designing and fixing bugs related to Customer display UI demos in Java
+skills:
+  - category: Programming
+    items:
+      - Swift
+      - Bash
+      - Python
+
+  - category: iOS
+    items:
+      - Combine
+      - async/await
+      - SwiftUI
+      - Swift 5.9
+
+  - category: Databases
+    items:
+      - MySQL
+      - sqlite
+      - MSSQL
+
+  - category: DevOps
+    items:
+      - Docker
+      - AWS
+      - Kubernetes
+
+  - category: Automation
+    items:
+      - Jenkins
+      - Bash/Python Scripts
+      - Xcode Cloud
+      - Ansible
+      - Self-Hosted Github Actions Runner
+      - Danger
+
+  - category: Basics
+    items:
+      - YAML
+      - XML
+      - JSON
+      - Git
+      - Gitflow
+      - Test-Driven Development
+      - system architecture & design
+
+languages:
+  - language: English
+    stars: 5
+  - language: German
+    stars: 2

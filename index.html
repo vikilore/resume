@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link rel="stylesheet" href="assets/stylesheets/layout.css">
+        <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <!-- Include the Main app javascript -->
+        <script src="assets/app.js"></script>
+        <script src="assets/pdf-generate.js"></script>
+        <!-- Include YAML Parserr -->
+        <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+        <!-- Include Font Awesome CSS -->
+        <script src="https://kit.fontawesome.com/cb81440751.js" crossorigin="anonymous"></script>
+        <!-- Include HTML2PDF.js -->
+        <script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="left-column">
+                <div class="top-buttons">
+                    <!-- Theme change button -->
+                    <i
+                        class="fa-solid fa-moon change-theme"
+                        title="Theme"
+                        id="theme-button"
+                        data-html2canvas-ignore="true"
+                    ></i>
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i
+                        class="fa-solid fa-download generate-pdf"
+                        title="Generate PDF"
+                        id="pdf-button"
+                        data-html2canvas-ignore="true"
+                    ></i>
+                </div>
+                <header>
+                    <h1 id="name"></h1>
+                    <p id="contact"></p>
+                </header>
+                <section id="social"></section>
+                <section id="summary"></section>
+                <section id="education"></section>
+                <section id="skills"></section>
+                <section id="languages"></section>
+            </div>
+            <div class="right-column">
+                <section id="experience"></section>
+            </div>
+        </div>
+        <script src="assets/darkmode.js"></script>
+    </body>
+</html>
