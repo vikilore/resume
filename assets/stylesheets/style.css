@@ -301,6 +301,10 @@ a {
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
+  .pdf_button {
+    display: none;
+  }
+
   .left-column,
   .right-column {
     flex: 1;
