@@ -2,8 +2,6 @@
 
 // Generate PDF with html2pdf.js
 function generateResume() {
-
-    // html2pdf.js options
     let opt = {
         margin: [0, 0, 0, 0],
         filename: 'myResumeCV-light.pdf',
@@ -14,20 +12,27 @@ function generateResume() {
         html2canvas: {
             scale: 2,
             useCORS: true,
-            width: 1000,
             dpi: 300,
             letterRendering: true,
+            // media: 'print'
         },
         jsPDF: {
             format: 'a4',
             orientation: 'portrait',
-            units: 'mm'
-        }
+            unit: 'mm'
+        },
+        // pagebreak: {
+        //     mode: 'avoid-all'
+        // }, // Avoid page breaks inside elements
+        // html2pdf: {
+        //     media: 'print', // Use the print media type
+        // },
     };
 
     var container = document.getElementById('container');
     html2pdf(container, opt);
 }
+
 
 window.addEventListener("DOMContentLoaded", (event) => {
 
