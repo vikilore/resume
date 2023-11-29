@@ -13,6 +13,11 @@ social:
   - name: GitHub
     url: https://www.github.com/kciarnie/
 summary: I am a software engineer with 10+ years of experience in mobile app development. I am passionate about building products that are scalable, maintainable, and user-friendly. I am a team player who enjoys collaborating with others to solve problems and learn new things.
+education:
+  - degree: Bachelor of Applied Science (Electronics Engineering)
+    school: Simon Fraser University
+    year: 2002 - 2009
+    location: Burnaby, BC, Canada
 experience:
   - company: MeisterLabs
     position: Senior iOS Developer
