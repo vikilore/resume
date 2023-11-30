@@ -9,7 +9,7 @@ async function generateResume() {
             quality: 0.98
         },
         html2canvas: {
-            scale: 2,
+            scale: 1.6,
             useCORS: true,
             dpi: 300,
             letterRendering: true,
@@ -19,10 +19,15 @@ async function generateResume() {
             orientation: 'portrait',
             unit: 'mm'
         },
-        pagebreak: {
-            mode: ['avoid-all', 'css', 'legacy']
-        },
+        // pagebreak: {
+        //     mode: ['avoid-all', 'css', 'legacy']
+        // },
         // Add the promise option
+        pagebreak: {
+            before: '.newPage',
+            avoid: ['h1', 'h2', '.field']
+        },
+
         promise: true
     };
 
