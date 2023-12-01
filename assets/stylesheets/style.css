@@ -23,6 +23,7 @@ body.dark-theme {
 .container {
   display: flex;
   max-width: 1100px;
+  max-height: 100%;
   margin: 2rem auto;
   background-color: var(--container-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -160,7 +161,7 @@ a {
 
 /* Contact page */
 
-.contact {
+.contact_data {
   position: relative;
   gap: 0.5rem;
   text-align: center;
@@ -178,7 +179,7 @@ a {
 /* resume.name */
 .contact_title {
   font-size: var(--h1-font-size);
-  margin-bottom: -1.8rem;
+  margin-bottom: -1.3rem;
 }
 
 /* resume.profession */

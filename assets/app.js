@@ -41,7 +41,7 @@ function displayContact(sectionId, contact) {
 
 	if (contact) {
 		const contactElement = document.createElement('div');
-		contactElement.className = 'contact';
+		contactElement.className = 'contact_data';
 
 		// Profile Image
 		if (contact.image) {
