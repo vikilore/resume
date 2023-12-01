@@ -23,6 +23,7 @@ body.dark-theme {
 .container {
   display: flex;
   max-width: 1100px;
+  max-height: 100%;
   margin: 2rem auto;
   background-color: var(--container-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -41,16 +42,9 @@ body.dark-theme {
   box-sizing: border-box;
 }
 
-.right-column {
-  color: var(--text-color);
-  background-color: var(--container-color);
-  flex: 2;
-}
-
 .left-column {
   background-color: #34485d;
-  flex: 1;
-  max-width: 400px;
+   max-width: 400px;
 }
 
 .left-column h1 {
@@ -66,7 +60,7 @@ body.dark-theme {
 }
 
 .left-column body {
-  color: var)--text-color-left);
+  color: var(--text-color-left);
 }
 
 /* Headers */
@@ -86,19 +80,16 @@ h2 {
 }
 
 h3 {
-  padding-top: 10px;
   font-family: var(--header-font);
 }
 
 h4 {
   color: var(--primary-color);
-  margin-bottom: 0.5rem;
 }
 
 /* Experience */
 .experience h2 {
   border-bottom: none;
-  margin-bottom: -1.5rem;
 }
 
 .experience h3 {
@@ -110,6 +101,7 @@ h4 {
 }
 
 .experience h4 {
+  margin-top: 20px;
   color: var(--text-color);
   font-size: 1.6rem;
 }
@@ -135,10 +127,10 @@ h4 {
   margin-top: -10px;
   font-style: italic;
   font-size: 0.9rem;
-  margin-bottom: 1rem;
 }
 
 .experience_responsibilities {
+  margin-top: -9px;
   padding: 0;
 }
 
@@ -167,13 +159,10 @@ a {
   text-decoration: none;
 }
 
-/* Home page */
+/* Contact page */
 
-.home {
+.contact_data {
   position: relative;
-}
-
-.home_data {
   gap: 0.5rem;
   text-align: center;
 }
@@ -188,23 +177,23 @@ a {
 }
 
 /* resume.name */
-.home_title {
+.contact_title {
   font-size: var(--h1-font-size);
-  margin-bottom: -1.8rem;
+  margin-bottom: -1.3rem;
 }
 
 /* resume.profession */
-.home_profession {
+.contact_profession {
   font-size: var(--h2-font-size);
 }
 
 /* resume.location */
-.home_address {
+.contact_address {
   gap: 1rem;
 }
 
 /* resume.phone, resume.email, resume.location */
-.home_information {
+.contact_information {
   font-weight: lighter;
   display: flex;
   align-items: center;
@@ -212,7 +201,7 @@ a {
   color: var(--text-color-left);
 }
 
-.home_icon {
+.contact_icon {
   display: flex;
   width: 25px;
   justify-content: center;
@@ -220,14 +209,14 @@ a {
 }
 
 .social_link,
-.home_link {
+.contact_link {
   display: inline-flex;
   align-items: center;
   color: var(--text-color-left);
 }
 
 .social_link:hover,
-.home_link:hover {
+.contact_link:hover {
   color: var(--primary-color);
 }
 
@@ -275,6 +264,11 @@ a {
 
 .education_year {
   color: var(--text-color-left);
+}
+
+.education_location {
+  margin-top: 0px;
+  color: white;
 }
 
 /* Languages page */
@@ -360,12 +354,11 @@ a {
     border: 2px solid var(--text-color);
   }
 
+  .contact_title,
+  .contact_information,
+  .contact_link,
   .social_container,
-  .home_title,
-  .home_information,
-  .social-container,
   .social_link,
-  .home_link,
   .summary,
   .education,
   .languages_container,
@@ -378,8 +371,41 @@ a {
 
 .pdf-container {
   margin-top: -10px;
-  padding-bottom: -20px;
   margin-left: -8px;
   font-size: 0.8rem;
-  height: 100%;
 }
+
+.pdf-container .left-column {
+  max-width: 280px;
+}
+
+.pdf-container .right-column,
+.pdf-container .left-column,
+.pdf-container .contact_address,
+.pdf-container .contact_data,
+.pdf-container .contact_icon,
+.pdf-container .contact_information,
+.pdf-container .contact_link,
+.pdf-container .contact_profession,
+.pdf-container .contact_title,
+.pdf-container .summary,
+.pdf-container .social_icon,
+.pdf-container .social_link,
+.pdf-container .education_location,
+.pdf-container .education_year,
+.pdf-container .education_degree,
+.pdf-container .skill_category h3,
+.pdf-container .languages_stars,
+.pdf-container .languages_container,
+.pdf-container .experience h1,
+.pdf-container .experience h2,
+.pdf-container .experience h4,
+.pdf-container .experience_date,
+.pdf-container .experience_location,
+.pdf-container .experience_responsibilities,
+.pdf-container .experience_summary
+ {
+  /* background-color: #ffffff;
+  color: #121212;  */
+}
+

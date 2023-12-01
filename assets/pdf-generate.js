@@ -1,28 +1,34 @@
 /* Generate PDF */
 
 // Generate PDF with html2pdf.js
-async function generateResume() {
+async function generateResume(filename) {
     let opt = {
-        filename: 'myResumeCV-light.pdf',
+        filename: filename,
         image: {
             type: 'png',
             quality: 0.98
         },
         html2canvas: {
-            scale: 2,
+            scale: 1.6,
             useCORS: true,
             dpi: 300,
             letterRendering: true,
         },
         jsPDF: {
-            format: 'a4',
+            format: 'letter',
             orientation: 'portrait',
-            unit: 'mm'
+            unit: 'in'
         },
         pagebreak: {
             mode: ['avoid-all', 'css', 'legacy']
         },
-        // Add the promise option
+        pagebreak: {
+            before: '.newPage',
+            avoid: ['h1', 'h2', '.field']
+        },
+        pagebreak: {
+            mode: 'css'
+        },
         promise: true
     };
 
@@ -43,12 +49,15 @@ async function generateResume() {
 
 window.addEventListener("DOMContentLoaded", (event) => {
     const pdfButton = document.getElementById('pdf-button');
-
     // Action executed by clicking on the button => generation of the final PDF CV CV
     pdfButton.addEventListener("click", async () => {
         try {
+            const isDarkTheme = document.body.classList.contains(darkTheme);
+            const ending = isDarkTheme ? "-dark" : "-light";
+            const filename = document.getElementById('contact_title').textContent.split(' ').join('-').toLowerCase() + '-cv' + ending + '.pdf';
             // Generate the PDF
-            await generateResume();
+            console.log('Generating PDF...' + filename);
+            await generateResume(filename);
             console.log('PDF generation successful!');
         } catch (error) {
             console.error('Error generating PDF:', error);
