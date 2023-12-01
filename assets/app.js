@@ -41,7 +41,7 @@ function displayContact(sectionId, contact) {
 
 	if (contact) {
 		const contactElement = document.createElement('div');
-		contactElement.className = 'home_data';
+		contactElement.className = 'contact';
 
 		// Profile Image
 		if (contact.image) {
@@ -49,24 +49,24 @@ function displayContact(sectionId, contact) {
 			imageElement.src = contact.image;
 			imageElement.alt = 'Icon picture';
 			imageElement.className = 'avatar';
-			imageElement.id = 'home-img';
+			imageElement.id = 'contact_img';
 			contactElement.appendChild(imageElement);
 		}
 
 		// Name
 		const nameElement = document.createElement('h1');
-		nameElement.className = 'home_title';
+		nameElement.className = 'contact_title';
 		nameElement.innerHTML = `${contact.name}`;
 		contactElement.appendChild(nameElement);
 
 		// Profession
 		const professionElement = document.createElement('h3');
-		professionElement.className = 'home_profession';
+		professionElement.className = 'contact_profession';
 		professionElement.textContent = contact.profession;
 		contactElement.appendChild(professionElement);
 
 		// Display contact information
-		const info = displayContactInfo('home_address', contact);
+		const info = displayContactInfo('contact_address', contact);
 		contactElement.appendChild(info);
 		section.appendChild(contactElement);
 	}
@@ -75,15 +75,15 @@ function displayContact(sectionId, contact) {
 // Function to display contact information (address)
 function displayContactInfo(sectionId, contact) {
 	const section = document.createElement('div');
-	section.className = 'home_address bd-grid';
+	section.className = 'contact_address bd-grid';
 
 	if (contact) {
 		// Location
 		if (contact.location) {
 			const locationSpan = document.createElement('span');
-			locationSpan.className = 'home_information';
+			locationSpan.className = 'contact_information';
 			const locationIcon = document.createElement('i');
-			locationIcon.className = 'fa-solid fa-location-dot home_icon';
+			locationIcon.className = 'fa-solid fa-location-dot contact_icon';
 			const locationText = document.createTextNode(` ${contact.location}`);
 			locationSpan.appendChild(locationIcon);
 			locationSpan.appendChild(locationText);
@@ -93,12 +93,12 @@ function displayContactInfo(sectionId, contact) {
 		// Email
 		if (contact.email) {
 			const emailSpan = document.createElement('span');
-			emailSpan.className = 'home_information';
+			emailSpan.className = 'contact_information';
 			const emailLink = document.createElement('a');
 			emailLink.href = `mailto:${contact.email}`;
-			emailLink.className = 'home_link';
+			emailLink.className = 'contact_link';
 			const emailIcon = document.createElement('i');
-			emailIcon.className = 'fa-solid fa-envelope home_icon';
+			emailIcon.className = 'fa-solid fa-envelope contact_icon';
 			const emailText = document.createTextNode(` ${contact.email}`);
 			emailLink.appendChild(emailIcon);
 			emailLink.appendChild(emailText);
@@ -109,12 +109,12 @@ function displayContactInfo(sectionId, contact) {
 		// Phone
 		if (contact.phone) {
 			const phoneSpan = document.createElement('span');
-			phoneSpan.className = 'home_information';
+			phoneSpan.className = 'contact_information';
 			const phoneLink = document.createElement('a');
 			phoneLink.href = `tel:${contact.phone}`;
-			phoneLink.className = 'home_link';
+			phoneLink.className = 'contact_link';
 			const phoneIcon = document.createElement('i');
-			phoneIcon.className = 'fa-solid fa-phone home_icon';
+			phoneIcon.className = 'fa-solid fa-phone contact_icon';
 			const phoneText = document.createTextNode(` ${contact.phone}`);
 			phoneLink.appendChild(phoneIcon);
 			phoneLink.appendChild(phoneText);

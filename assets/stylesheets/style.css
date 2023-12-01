@@ -59,7 +59,7 @@ body.dark-theme {
 }
 
 .left-column body {
-  color: var)--text-color-left);
+  color: var(--text-color-left);
 }
 
 /* Headers */
@@ -158,13 +158,10 @@ a {
   text-decoration: none;
 }
 
-/* Home page */
+/* Contact page */
 
-.home {
+.contact {
   position: relative;
-}
-
-.home_data {
   gap: 0.5rem;
   text-align: center;
 }
@@ -179,23 +176,23 @@ a {
 }
 
 /* resume.name */
-.home_title {
+.contact_title {
   font-size: var(--h1-font-size);
   margin-bottom: -1.8rem;
 }
 
 /* resume.profession */
-.home_profession {
+.contact_profession {
   font-size: var(--h2-font-size);
 }
 
 /* resume.location */
-.home_address {
+.contact_address {
   gap: 1rem;
 }
 
 /* resume.phone, resume.email, resume.location */
-.home_information {
+.contact_information {
   font-weight: lighter;
   display: flex;
   align-items: center;
@@ -203,7 +200,7 @@ a {
   color: var(--text-color-left);
 }
 
-.home_icon {
+.contact_icon {
   display: flex;
   width: 25px;
   justify-content: center;
@@ -211,14 +208,14 @@ a {
 }
 
 .social_link,
-.home_link {
+.contact_link {
   display: inline-flex;
   align-items: center;
   color: var(--text-color-left);
 }
 
 .social_link:hover,
-.home_link:hover {
+.contact_link:hover {
   color: var(--primary-color);
 }
 
@@ -355,12 +352,11 @@ a {
     border: 2px solid var(--text-color);
   }
 
+  .contact_title,
+  .contact_information,
+  .contact_link,
   .social_container,
-  .home_title,
-  .home_information,
-  .social-container,
   .social_link,
-  .home_link,
   .summary,
   .education,
   .languages_container,
