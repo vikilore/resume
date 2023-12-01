@@ -19,15 +19,16 @@ async function generateResume() {
             orientation: 'portrait',
             unit: 'in'
         },
-        // pagebreak: {
-        //     mode: ['avoid-all', 'css', 'legacy']
-        // },
-        // Add the promise option
+        pagebreak: {
+            mode: ['avoid-all', 'css', 'legacy']
+        },
         pagebreak: {
             before: '.newPage',
             avoid: ['h1', 'h2', '.field']
         },
-
+        pagebreak: {
+            mode: 'css'
+        },
         promise: true
     };
 

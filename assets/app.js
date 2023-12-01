@@ -267,6 +267,7 @@ function displayEducation(sectionId, items) {
 			// Add an h3 element for the degree
 			const degreeElement = document.createElement('h3');
 			degreeElement.textContent = item.degree;
+			degreeElement.className = 'education_degree';
 			itemElement.appendChild(degreeElement);
 
 			// Add an h4 element for the school and year
