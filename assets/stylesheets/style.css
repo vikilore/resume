@@ -43,7 +43,7 @@ body.dark-theme {
 }
 
 .left-column {
-  background-color: #34485d;
+  background-color: var(--secondary-color);
    max-width: 400px;
 }
 
@@ -79,6 +79,7 @@ h2 {
   border-bottom: 1px dotted var(--primary-color);
 }
 
+
 h3 {
   font-family: var(--header-font);
 }
@@ -94,9 +95,9 @@ h4 {
 
 .experience h3 {
   padding-bottom: 4px;
-  border-bottom: 1.2px dashed var(--primary-color);
+  border-bottom: 1.2px dashed var(--primary-color-alt);
   font-size: var(--h1-font-size);
-  color: var(--primary-color);
+  color: var(--primary-color-alt);
   margin-bottom: 1.5rem;
 }
 

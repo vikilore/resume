@@ -24,6 +24,7 @@ function displayResume(resume) {
 	// Display name
 	document.getElementById('name').textContent = resume.name;
 	document.documentElement.style.setProperty('--primary-color', resume.primaryColor || '#83C2EA');
+	document.documentElement.style.setProperty('--primary-color-alt', resume.primaryColorAlt || '#83C2EA');
 	document.documentElement.style.setProperty('--secondary-color', resume.secondaryColor || '#34485d');
 	displayContact('contact', resume.contact);
 	displaySocial('social', resume.social);
