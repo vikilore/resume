@@ -15,9 +15,9 @@ async function generateResume() {
             letterRendering: true,
         },
         jsPDF: {
-            format: 'a4',
+            format: 'letter',
             orientation: 'portrait',
-            unit: 'mm'
+            unit: 'in'
         },
         // pagebreak: {
         //     mode: ['avoid-all', 'css', 'legacy']
