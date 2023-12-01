@@ -27,7 +27,7 @@ experience:
     responsibilities:
       - Implemented an Event Tracking Kit, Style Guide Kit,
       - Facilitated the transition of Objective-C to Swift, UIKit views to SwiftUI, and MVC to MVVM
-      - Instituted Github PullRequest Templates, GitHub Actions Danger, SwiftFormat, SwiftGen, Fastlane, and more
+      - Instituted Github PullRequest Templates, GitHub Actions, Danger, SwiftFormat, SwiftGen, Fastlane, and more
       - Develop features and refactor legacy code for the new MindMapping application
       - Refactored code to use Combine framework, async/await, the removal of 3rd party dependencies, Storyboards, Nibs
 
