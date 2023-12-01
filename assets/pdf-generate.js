@@ -1,9 +1,9 @@
 /* Generate PDF */
 
 // Generate PDF with html2pdf.js
-async function generateResume() {
+async function generateResume(filename) {
     let opt = {
-        filename: 'myResumeCV-light.pdf',
+        filename: filename,
         image: {
             type: 'png',
             quality: 0.98
@@ -49,12 +49,15 @@ async function generateResume() {
 
 window.addEventListener("DOMContentLoaded", (event) => {
     const pdfButton = document.getElementById('pdf-button');
-
     // Action executed by clicking on the button => generation of the final PDF CV CV
     pdfButton.addEventListener("click", async () => {
         try {
+            const isDarkTheme = document.body.classList.contains(darkTheme);
+            const ending = isDarkTheme ? "-dark" : "-light";
+            const filename = document.getElementById('contact_title').textContent.split(' ').join('-').toLowerCase() + '-cv' + ending + '.pdf';
             // Generate the PDF
-            await generateResume();
+            console.log('Generating PDF...' + filename);
+            await generateResume(filename);
             console.log('PDF generation successful!');
         } catch (error) {
             console.error('Error generating PDF:', error);

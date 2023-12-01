@@ -55,6 +55,7 @@ function displayContact(sectionId, contact) {
 
 		// Name
 		const nameElement = document.createElement('h1');
+		nameElement.id = 'contact_title';
 		nameElement.className = 'contact_title';
 		nameElement.innerHTML = `${contact.name}`;
 		contactElement.appendChild(nameElement);

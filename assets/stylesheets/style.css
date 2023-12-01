@@ -377,8 +377,6 @@ a {
 
 .pdf-container .left-column {
   max-width: 280px;
-  border-color: black;
-  border-right-width: 0.4px;
 }
 
 .pdf-container .right-column,
@@ -407,7 +405,7 @@ a {
 .pdf-container .experience_responsibilities,
 .pdf-container .experience_summary
  {
-  background-color: #ffffff;
-  color: #121212;
+  /* background-color: #ffffff;
+  color: #121212;  */
 }
 
