@@ -157,7 +157,7 @@ skills:
       - Bash/Python Scripts
       - Xcode Cloud
       - Ansible
-      - Self-Hosted Github Actions Runner
+      - Github Actions Runner
       - Danger
 
   - category: Basics
@@ -168,7 +168,6 @@ skills:
       - Git
       - Gitflow
       - Test-Driven Development
-      - system architecture & design
 
 languages:
   - language: English

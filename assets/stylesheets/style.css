@@ -373,5 +373,9 @@ a {
   padding-bottom: -20px;
   margin-left: -8px;
   font-size: 0.8rem;
-  min-height: 100%;
+  min-height: 100%;;
+}
+
+.pdf-container .left-column {
+  max-width: 280px;
 }
