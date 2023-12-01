@@ -275,18 +275,12 @@ function displayEducation(sectionId, items) {
 			schoolYearElement.innerHTML = `${item.school || item.company}, ${item.year || item.date}`;
 			itemElement.appendChild(schoolYearElement);
 
-			// Add details only if location or summary is available
-			if (item.location || item.summary) {
-				const detailsList = document.createElement('ul');
-
-				// Add location as a list item
-				if (item.location) {
-					const locationItem = document.createElement('li');
-					locationItem.textContent = `Location: ${item.location}`;
-					detailsList.appendChild(locationItem);
-				}
-
-				// itemElement.appendChild(detailsList);
+			// Add location as a list item
+			if (item.location) {
+				const locationItem = document.createElement('p');
+				locationItem.textContent = item.location;
+				locationItem.className = 'education_location';
+				itemElement.appendChild(locationItem);
 			}
 
 			section.appendChild(itemElement);
