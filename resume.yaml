@@ -5,7 +5,7 @@ contact:
   image: assets/images/profile.png
   name: Viktoria Schaarschmidt
   profession: Videographer
-  location: Mautner-Markhof-Gasse 90, 1110 Vienna, Austria
+  location: Vienna, Austria
   email: viktoria.schaarschmidt@gmail.com
   phone: "+436805564426"
 social:
@@ -62,7 +62,7 @@ experience:
     date: Sep 2019 -- Jun 2020
     location: Vienna, Austria
     #summary: 
-     responsibilities:
+    responsibilities:
        - Correction and proofreading of texts
        - Help with linguistic uncertainties
     #   - iOS and Android development on the core product facilitating more than 100+ apps/year
@@ -92,44 +92,44 @@ experience:
     #   - XSLT/XML to HTML development
     #   - Cross-platform hybrid architecture implementing JavaScript/CSS/HTML and native functionality
 
-  - company: QuickMobile (cEvent)
-    position: Senior Mobile Developer, Lead
-    date: Mar 2010 -- Nov 2013
-    location: Vancouver, Canada
-    summary: QuickMobile is the global leader of mobile event apps for meetings and conferences. Our event apps delight audiences by enhancing the way they network, schedule activities, engage with content, and access information.
-    responsibilities:
-      # - Became a lead developer in the apps industry that serviced many Fortune 500 companies
-      - Helped grow the company from 7 to over 200 Employees
-      - Lead Developer for Android/BlackBerry in a start-up environment
-      - Worked on over 100+ iPhone, Android, and BlackBerry Applications
-      - Worked extensively on iPhone and Android Framework
-      - Created Automation and test scripts for iPhone/Android/BlackBerry
-      # - Developed BlackBerry Framework
-      - Traveled internationally to interface with and support key clients (McDonald's, Intel, Google)
+  # - company: QuickMobile (cEvent)
+  #   position: Senior Mobile Developer, Lead
+  #   date: Mar 2010 -- Nov 2013
+  #   location: Vancouver, Canada
+  #   summary: QuickMobile is the global leader of mobile event apps for meetings and conferences. Our event apps delight audiences by enhancing the way they network, schedule activities, engage with content, and access information.
+  #   responsibilities:
+  #     # - Became a lead developer in the apps industry that serviced many Fortune 500 companies
+  #     - Helped grow the company from 7 to over 200 Employees
+  #     - Lead Developer for Android/BlackBerry in a start-up environment
+  #     - Worked on over 100+ iPhone, Android, and BlackBerry Applications
+  #     - Worked extensively on iPhone and Android Framework
+  #     - Created Automation and test scripts for iPhone/Android/BlackBerry
+  #     # - Developed BlackBerry Framework
+  #     - Traveled internationally to interface with and support key clients (McDonald's, Intel, Google)
 
-  - company: Redback Networks (Ericcson)
-    position: Software Developer
-    date: Jan 2008 -- Jan 2009
-    location: Burnaby, BC, Canada
-    summary: Redback Networks is a company that manufactures routers and switches for the internet.
+  # - company: Redback Networks (Ericcson)
+  #   position: Software Developer
+  #   date: Jan 2008 -- Jan 2009
+  #   location: Burnaby, BC, Canada
+  #   summary: Redback Networks is a company that manufactures routers and switches for the internet.
     # responsibilities:
     #   - Data-driven development by creating analytics of all calls to the SmartEdge Routers
     #   - Automation and test scripts using Perl and Bash
     #   - Implemented cross-communication using SOAP, XML/XSD/XSLT, and Java
 
-  - company: BlackBerry
-    position: Security Software Developer (Intern)
-    date: May 2006 -- Sep 2006
-    location: Waterloo, ON, Canada
-    summary: BlackBerry is a line of smartphones, tablets, and services originally designed and marketed by Canadian company BlackBerry Limited.
-    # responsibilities:
+  # - company: BlackBerry
+  #   position: Security Software Developer (Intern)
+  #   date: May 2006 -- Sep 2006
+  #   location: Waterloo, ON, Canada
+  #   summary: BlackBerry is a line of smartphones, tablets, and services originally designed and marketed by Canadian company BlackBerry Limited.
+   # responsibilities:
     #   - Helped fix bugs and understand security at BlackBerry
     #   - Bug fixes, device-side PGP/SSP implementation in Java
 
-  - company: BlackBerry
-    position: Retail Applications Developer (Intern)
-    date: Sep 2005 -- Jan 2006
-    location: Waterloo, ON, Canada
+  # - company: BlackBerry
+  #   position: Retail Applications Developer (Intern)
+  #   date: Sep 2005 -- Jan 2006
+  #   location: Waterloo, ON, Canada
     # responsibilities:
     #   - Designing and fixing bugs related to Customer display UI demos in Java
 skills:
@@ -187,5 +187,5 @@ skills:
 languages:
   - language: German
     stars: 5
-  - language: German
+  - language: English
     stars: 4
