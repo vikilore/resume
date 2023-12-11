@@ -5,84 +5,92 @@ contact:
   image: assets/images/profile.png
   name: Viktoria Schaarschmidt
   profession: Videographer
-  location: Vienna, Austria
+  location: Mautner-Markhof-Gasse 90, 1110 Vienna, Austria
   email: viktoria.schaarschmidt@gmail.com
   phone: "+436805564426"
 social:
   - name: LinkedIn
     url: https://www.linkedin.com/in/viktoria-schaarschmidt-11090b275/
-summary: I am a videographer with . I am passionate about building products that are scalable, maintainable, and user-friendly. I am a team player who enjoys collaborating with others to solve problems and learn new things.
+summary: I am a videographer and creative head with a knack for producing contemporary and engaging video content. I am skilled in all stages of video production, from conception to final delivery. I am a highly collaborative, fast-learning, and creative person that likes to think out of the box.
 education:
-  - degree: Bachelor of Applied Science (Electronics Engineering)
-    school: Simon Fraser University
-    year: 2002 - 2009
-    location: Burnaby, BC, Canada
-experience:
-  - company: MeisterLabs
-    position: Senior iOS Developer
-    date: Sep 2020 -- Present
+  - degree: Bachelor of Science in Engineering (Media technology)
+    school: FH St. Pölten
+    year: 2019 - 2023
+    location: St. Pölten, Austria
+  - degree: Matura
+    school: BRG G11, focus on economy and sports
+    year: 2011 - 2019
     location: Vienna, Austria
-    summary: MeisterLabs is a SaaS company that creates collaborative tools for teams. Their products include MindMeister, a collaborative online mind mapping tool, and MeisterTask, an intuitive online task and project management tool.
+experience:
+  - company: Erste Group Bank AG
+    position: Video Production Intern
+    date: Apr 2022 -- Present
+    location: Vienna, Austria
+    summary: The inhouse video production of Erste Group is responsible for conceptualizing and producing high quality videos and formats for internal purposes as well as social media assets.
     responsibilities:
-      - Implemented an Event Tracking Kit, Style Guide Kit,
-      - Facilitated the transition of Objective-C to Swift, UIKit views to SwiftUI, and MVC to MVVM
-      - Instituted Github PullRequest Templates, GitHub Actions, Danger, SwiftFormat, SwiftGen, Fastlane, and more
-      - Develop features and refactor legacy code for the new MindMapping application
-      - Refactored code to use Combine framework, async/await, the removal of 3rd party dependencies, Storyboards, Nibs
+      - Editing multi-camera long-form videos 
+      - Social media video editing (TikTok, Instagram, LinkedIn)
+      - Studio and green screen recordings
+      - Producing and conceptualizing videos independently adn organizing video shoots
+      - Conceptualizing, developing, and hosting original video formats
+      - Subtitling in German and English
+      - Working behind the camera (Blackmagic Ursa, Sony FX3 with Gimbal, Canon C300)
 
-  - company: Apple
-    position: Software Development Engineer
-    date: Jan 2018 -- Jan 2019
-    location: Vancouver, Canada
-    summary: Apple is a multinational technology company that designs, develops, and sells consumer electronics, computer software, and online services.
-    responsibilities:
-      - Worked on the transition of Buddybuild to Xcode Cloud
-      - Maintained the Buddybuild product actively until the transition was complete
 
-  - company: Buddybuild
-    position: Engineer
-    date: Jun 2017 -- Jan 2018
-    location: Vancouver, Canada
-    summary: Buddybuild is a continuous integration and delivery platform for mobile applications. It is used by developers to build, test, and deploy their applications.
-    responsibilities:
-      - Develop and maintain CI/CD solution for both iOS and Android Platforms
-      - Update and facilitate features for the Buddybuild Android SDK
-      - Android CI/CD development and integration from start to deployment of Android projects
-      - Provide technical support with engineers to help deploy 1000+ apps
+  - company: Gärtnerei Hirschbeck
+    position: Shop assistant at Hirschis Hofladen
+    date: Mar 2021 -- Oct 2021
+    location: Vienna, Austria
+    summary: Hirschis Hofladen sells self-produced and regional agricultural products.
+    # responsibilities:
+    #   - Worked on the transition of Buddybuild to Xcode Cloud
+    #   - Maintained the Buddybuild product actively until the transition was complete
 
-  - company: Eventbase Technology
-    position: Senior Software Developer
-    date: Sep 2016 -- May 2017
-    location: Vancouver, Canada
-    summary: Eventbase is the leading mobile technology platform for events. Half of the top 20 technology companies in the world trust Eventbase to power their event apps.
-    responsibilities:
-      - Assist in Android and iOS Development
-      - Automate processes using Python to service over 100+ Event Apps
-      - iOS and Android development on the core product facilitating more than 100+ apps/year
-      - Create tools to speed up QA processes
-      - Create a private Python Module for aiding in developer/tester and automation
-      - Set up a Continuous Integration Environment to deploy builds and get configuration running faster
+  - company: Gärtnerei Hirschbeck
+    position: Groundskeeper
+    date: Jul 2020 & Jul 2021
+    location: Vienna, Austria
+    summary: Gärnterei Hirschbeck is a gardening company specialized on cemetry maintainance, floristry and plant growing.
+    # responsibilities:
+    #   - Develop and maintain CI/CD solution for both iOS and Android Platforms
+    #   - Update and facilitate features for the Buddybuild Android SDK
+    #   - Android CI/CD development and integration from start to deployment of Android projects
+    #   - Provide technical support with engineers to help deploy 1000+ apps
 
-  - company: Vonigo
-    position: Senior Full-stack Developer
-    date: Nov 2015 -- Aug 2016
-    location: Vancouver, Canada
-    summary: Vonigo is a cloud-based business management platform that helps streamline operations and increase sales of mobile service companies and franchises.
-    responsibilities:
-      - Switched to being a .NET Developer when help was needed
-      - MSSQL/.NET developer working on back-end features
-      - Developed the Vonigo API (api.vonigo.com), helped with the test harness for automated API testing
-      - Set up the CI/CD Environment
-      - Optimized current systems, store procedures, and the web application servicing more than 1000 work orders a day
+  - company: German tutoring
+    position: Tutor
+    date: Sep 2019 -- Jun 2020
+    location: Vienna, Austria
+    #summary: 
+     responsibilities:
+       - Correction and proofreading of texts
+       - Help with linguistic uncertainties
+    #   - iOS and Android development on the core product facilitating more than 100+ apps/year
+    #   - Create tools to speed up QA processes
+    #   - Create a private Python Module for aiding in developer/tester and automation
+    #   - Set up a Continuous Integration Environment to deploy builds and get configuration running faster
 
-  - company: Vonigo
-    position: Senior Android Developer
-    date: Mar 2014 -- Nov 2015
-    location: Vancouver, Canada
-    responsibilities:
-      - Developed the Vonigo application on Android
-      - XSLT/XML to HTML development
-      - Cross-platform hybrid architecture implementing JavaScript/CSS/HTML and native functionality
+  - company: ÖHTB
+    position: Social Work Intern
+    date: Feb 2017
+    location: Vienna, Austria
+    summary: ÖHTB supports and cares for people with disabilities in all situations, in their personal environment, in their own home and in shared accommodation.
+    # responsibilities:
+    #   - Switched to being a .NET Developer when help was needed
+    #   - MSSQL/.NET developer working on back-end features
+    #   - Developed the Vonigo API (api.vonigo.com), helped with the test harness for automated API testing
+    #   - Set up the CI/CD Environment
+    #   - Optimized current systems, store procedures, and the web application servicing more than 1000 work orders a day
+
+  - company: Mediadoc
+    position: Intern
+    date: Jul 2016
+    location: Vienna, Austria
+    summary: Mediadoc is an all-rounder for media observation.
+    # responsibilities:
+    #   - Developed the Vonigo application on Android
+    #   - XSLT/XML to HTML development
+    #   - Cross-platform hybrid architecture implementing JavaScript/CSS/HTML and native functionality
 
   - company: QuickMobile (cEvent)
     position: Senior Mobile Developer, Lead
@@ -125,51 +133,59 @@ experience:
     # responsibilities:
     #   - Designing and fixing bugs related to Customer display UI demos in Java
 skills:
-  - category: Programming
+  - category: Post Production
     items:
-      - Swift
-      - Bash
-      - Python
+      - Adobe Premiere Pro
+      - Adobe After Effects
+      - Adobe Photoshop
+      - Adobe Illustrator
+      - Avid Pro Tools
 
-  - category: iOS
+  - category: Camera
     items:
-      - Combine
-      - async/await
-      - SwiftUI
-      - Swift 5.9
+      - Blackmagic Ursa
+      - Sony FX3
+      - Canon C300
+      - JVC Studio Camera
+      - Sony Studio Camera
+      
 
-  - category: Databases
+  - category: Soft Skills
     items:
-      - MySQL
-      - sqlite
-      - MSSQL
+      - Thinking outside the box
+      - Quick comprehension
+      - High willingness to learn
+      - Ability to work in a team
+      - Flexibility
+      - Creativity
+      - Humor
 
-  - category: DevOps
-    items:
-      - Docker
-      - AWS
-      - Kubernetes
+  # - category: DevOps
+  #   items:
+  #     - Docker
+  #     - AWS
+  #     - Kubernetes
 
-  - category: Automation
-    items:
-      - Jenkins
-      - Bash/Python Scripts
-      - Xcode Cloud
-      - Ansible
-      - Github Actions Runner
-      - Danger
+  # - category: Automation
+  #   items:
+  #     - Jenkins
+  #     - Bash/Python Scripts
+  #     - Xcode Cloud
+  #     - Ansible
+  #     - Github Actions Runner
+  #     - Danger
 
-  - category: Basics
-    items:
-      - YAML
-      - XML
-      - JSON
-      - Git
-      - Gitflow
-      - Test-Driven Development
+  # - category: Basics
+  #   items:
+  #     - YAML
+  #     - XML
+  #     - JSON
+  #     - Git
+  #     - Gitflow
+  #     - Test-Driven Development
 
 languages:
-  - language: English
+  - language: German
     stars: 5
   - language: German
-    stars: 2
+    stars: 4
