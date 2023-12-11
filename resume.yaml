@@ -1,8 +1,8 @@
-primaryColor: "#83C2EA"
-primaryColorAlt: "#83C2EA"
-secondaryColor: "#34485d"
+primaryColor: "#d5a6bd"
+primaryColorAlt: "#d5a6bd"
+secondaryColor: "#4c1130"
 contact:
-  image: assets/images/profile.png
+  image: assets/images/PortraitZoomBig1x1.png
   name: Viktoria Schaarschmidt
   profession: Videographer
   location: Vienna, Austria
