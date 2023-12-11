@@ -89,11 +89,11 @@ h4 {
 }
 
 /* Experience */
-.experience h2 {
+.experience h2, .personal-development h2 {
   border-bottom: none;
 }
 
-.experience h3 {
+.experience h3, .personal-development h3 {
   padding-bottom: 4px;
   border-bottom: 1.2px dashed var(--primary-color-alt);
   font-size: var(--h1-font-size);
@@ -138,6 +138,34 @@ h4 {
 .experience_responsibilities li {
   margin-bottom: 0.5rem;
   list-style-type: disc;
+}
+
+/* Personal development */
+
+.personal-development-date {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.personal-development-title {
+  margin-top: -10px;
+  font-size: 1.5rem;
+}
+
+.personal-development-organization {
+  margin-top: -20px;
+  padding: 0;
+}
+
+.personal-development-summary {
+  margin-top: -9px;
+  padding: 0;
+}
+
+.personal-development-entry {
+  margin-bottom: 2rem;
 }
 
 /* Code */
@@ -292,22 +320,24 @@ a {
   color: var(--text-color-light);
 }
 
-/* Skill page */
+/* Skill and hobbies page */
 
-.skill_category {
+.skill_category, .hobbies_category {
   margin-bottom: 0.5rem;
 }
 
-.skill_category h3 {
+.skill_category h3, .hobbies_category h3 {
   margin-bottom: 0.4rem;
 }
 
-.skill_category div {
+.skill_category div, .hobbies_items {
   display: flex;
   flex-wrap: wrap;
 }
 
-.skill_category code {
+
+
+.skill_category code, .hobbies_items code {
   margin-bottom: 0.4rem;
 }
 

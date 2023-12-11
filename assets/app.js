@@ -18,7 +18,6 @@ function parseYaml(yamlString) {
 	}
 }
 
-
 function displayResume(resume) {
 	// Apply branding color to CSS variable
 	// Display name
@@ -31,9 +30,10 @@ function displayResume(resume) {
 	displaySummary('summary', resume.summary);
 	displayEducation('education', resume.education);
 	displayExperience('experience', resume.experience);
+	displayPersonalDevelopment('personal-development', resume.personalDevelopment);
 	displaySkills('skills', resume.skills);
+	displayHobbies('hobbies', resume.hobbies);
 	displayLanguages('languages', resume.languages);
-
 }
 
 // Function to display contact information
@@ -132,7 +132,7 @@ function displayContactInfo(sectionId, contact) {
 function addSectionHeader(sectionId) {
 	const section = document.getElementById(sectionId);
 	const headingElement = document.createElement('h2');
-	headingElement.textContent = sectionId;
+	headingElement.textContent = sectionId.replace('-', " ");
 	section.appendChild(headingElement);
 }
 
@@ -195,6 +195,7 @@ function displayExperience(sectionId, experiences) {
 
 			if (!isSameCompany) {
 				const titleElement = document.createElement('h3');
+				titleElement.id = 'experience_company';
 				titleElement.className = 'experience_company';
 				titleElement.textContent = experience.company;
 				section.appendChild(titleElement);
@@ -256,6 +257,46 @@ function displayExperience(sectionId, experiences) {
 	}
 }
 
+// Function to display personal development entries
+function displayPersonalDevelopment(sectionId, personalDevelopments) {
+	const section = document.getElementById(sectionId);
+
+	if (personalDevelopments && personalDevelopments.length > 0) {
+		addSectionHeader(sectionId);
+
+		personalDevelopments.forEach(entry => {
+			const entryContainer = document.createElement('div');
+			entryContainer.className = 'personal-development-entry';
+
+			// Display date
+			const dateElement = document.createElement('p');
+			dateElement.className = 'personal-development-date';
+			dateElement.textContent = entry.date;
+			entryContainer.appendChild(dateElement);
+
+			// Display title
+			const titleElement = document.createElement('h3');
+			titleElement.className = 'personal-development-title';
+			titleElement.textContent = entry.title;
+			entryContainer.appendChild(titleElement);
+
+			// Display organization
+			const organizationElement = document.createElement('p');
+			organizationElement.className = 'personal-development-organization';
+			organizationElement.textContent = entry.organization;
+			entryContainer.appendChild(organizationElement);
+
+			// Display summary
+			const summaryElement = document.createElement('p');
+			summaryElement.className = 'personal-development-summary';
+			summaryElement.textContent = entry.summary;
+			entryContainer.appendChild(summaryElement);
+
+			// Append the entry to the section
+			section.appendChild(entryContainer);
+		});
+	}
+}
 
 
 function displayEducation(sectionId, items) {
@@ -317,6 +358,28 @@ function displaySkills(sectionId, skills) {
 			categoryElement.appendChild(itemList);
 			section.appendChild(categoryElement);
 		});
+	}
+}
+
+// Function to display hobbies
+function displayHobbies(sectionId, hobbies) {
+	const section = document.getElementById(sectionId);
+
+	if (hobbies && hobbies.length > 0) {
+		addSectionHeader(sectionId);
+
+		const itemList = document.createElement('div');
+		itemList.id = 'hobbies_items';
+		itemList.className = 'hobbies_items';
+
+		hobbies.forEach(hobby => {
+			// Create a code element for each hobby
+			const codeElement = document.createElement('code');
+			codeElement.textContent = hobby;
+			itemList.appendChild(codeElement);
+		});
+
+		section.appendChild(itemList);
 	}
 }
 

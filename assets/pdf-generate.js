@@ -2,7 +2,7 @@
 
 // Generate PDF with html2pdf.js
 async function generateResume(filename) {
-    let opt = {
+    var opt = {
         filename: filename,
         image: {
             type: 'png',
@@ -17,17 +17,13 @@ async function generateResume(filename) {
         jsPDF: {
             format: 'letter',
             orientation: 'portrait',
-            unit: 'in'
+            unit: 'in',
         },
         pagebreak: {
-            mode: ['avoid-all', 'css', 'legacy']
-        },
-        pagebreak: {
-            before: '.newPage',
-            avoid: ['h1', 'h2', '.field']
-        },
-        pagebreak: {
-            mode: 'css'
+            mode: ['avoid-all', 'css', 'legacy'],
+            // mode: {
+            //     before: '.experience_company',
+            // },
         },
         promise: true
     };
@@ -37,7 +33,7 @@ async function generateResume(filename) {
 
     try {
         // Use await with the html2pdf function directly
-        await html2pdf().from(container).set(opt).save();
+        await html2pdf().set(opt).from(container).save();
         container.classList.remove("pdf-container");
         console.log('PDF generated successfully!');
     } catch (error) {
