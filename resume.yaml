@@ -21,6 +21,19 @@ education:
     school: BRG G11, focus on economy and sports
     year: 2011 - 2019
     location: Vienna, Austria
+personalDevelopment:
+  - date: 09/2016 - 06/2018
+    title: "Zertifikat Schluuselqualifikationen"
+    organization: BRG G11
+    summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
+  - date: 09/2016 - 06/2018
+    title: "Zertifikat Schluuselqualifikationen"
+    organization: BRG G11
+    summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
+  - date: 09/2016 - 06/2018
+    title: "Zertifikat Schluuselqualifikationen"
+    organization: BRG G11
+    summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
 experience:
   - company: Erste Group Bank AG
     position: Video Production Intern
