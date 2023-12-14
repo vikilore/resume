@@ -23,17 +23,37 @@ education:
     location: Vienna, Austria
 personalDevelopment:
   - date: 09/2016 - 06/2018
-    title: "Zertifikat Schluuselqualifikationen"
+    title: "Certificate key skills"
     organization: BRG G11
-    summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
+    summary: "Presesentation, communication, conflict management"
+  - date: 05/2018
+    title: "First aid course"
+    organization: ÖRK
+   # summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
+  - date: 09/2018
+    title: "State-certified fitness instructor"
+    organization: BSPA
+   # summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
   - date: 09/2016 - 06/2018
-    title: "Zertifikat Schluuselqualifikationen"
-    organization: BRG G11
-    summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
+    title: "Premiere Pro post production training"
+    organization: Seven Film- und Postproduction, Tobias Sautner, Peter Gruber
+    summary: "Premiere Pro workflow optimization"
   - date: 09/2016 - 06/2018
-    title: "Zertifikat Schluuselqualifikationen"
-    organization: BRG G11
-    summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
+    title: "Color correction and grading training"
+    organization: Markus Weilguny
+    summary: "theoretical foundations of color correction and grading, practical usecases in Premiere Pro"
+  - date: 09/2016 - 06/2018
+    title: "Camera and Gimbal training"
+    organization: Seven Film- und Postproduction, Philipp Habenicht
+    summary: "Improving camera ad gimbal handling"
+  - date: 09/2016 - 06/2018
+    title: "Camera and Gimbal training"
+    organization: Seven Film- und Postproduction, Philipp Habenicht
+    summary: "Improving camera ad gimbal handling"
+  - date: 09/2016 - 06/2018
+    title: "Conception, storytellinng and business dramaturgy tutoring"
+    organization: Marc Miletich, Sonovista
+    summary: "gaining a deeper understanding of "
 experience:
   - company: Erste Group Bank AG
     position: Video Production Intern
