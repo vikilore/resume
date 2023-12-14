@@ -36,28 +36,24 @@ personalDevelopment:
    # summary: "Prǎsesentation, Kommunicationi, Konfliktmanagement"
   - date: 09/2016 - 06/2018
     title: "Premiere Pro post production training"
-    organization: Seven Film- und Postproduction, Tobias Sautner, Peter Gruber
+    organization: Tobias Sautner, Peter Gruber, Seven Film- und Postproduction
     summary: "Premiere Pro workflow optimization"
-  - date: 09/2016 - 06/2018
+  - date: 11/2022 - 07/2023
     title: "Color correction and grading training"
     organization: Markus Weilguny
-    summary: "theoretical foundations of color correction and grading, practical usecases in Premiere Pro"
+    summary: "Theoretical foundations of color correction and grading, practical usecases in Premiere Pro"
   - date: 09/2016 - 06/2018
     title: "Camera and Gimbal training"
     organization: Seven Film- und Postproduction, Philipp Habenicht
-    summary: "Improving camera ad gimbal handling"
-  - date: 09/2016 - 06/2018
-    title: "Camera and Gimbal training"
-    organization: Seven Film- und Postproduction, Philipp Habenicht
-    summary: "Improving camera ad gimbal handling"
+    summary: "Setting up cameras for different enviroments, Camera Matching, Improving camera and gimbal handling"
   - date: 09/2016 - 06/2018
     title: "Conception, storytellinng and business dramaturgy tutoring"
     organization: Marc Miletich, Sonovista
-    summary: "gaining a deeper understanding of "
+    summary: "gaining a deeper understanding of storytelling and dramaturgy, reviewing and analyzing past projects, applying inputs on recent works "
 experience:
   - company: Erste Group Bank AG
     position: Video Production Intern
-    date: Apr 2022 -- Present
+    date: Apr 2022 - Present
     location: Vienna, Austria
     summary: The inhouse video production of Erste Group is responsible for conceptualizing and producing high quality videos and formats for internal purposes as well as social media assets.
     responsibilities:
@@ -70,7 +66,7 @@ experience:
       - Working behind the camera (Blackmagic Ursa, Sony FX3 with Gimbal, Canon C300)
   - company: Gärtnerei Hirschbeck
     position: Shop assistant at Hirschis Hofladen
-    date: Mar 2021 -- Oct 2021
+    date: Mar 2021 - Oct 2021
     location: Vienna, Austria
     summary: Hirschis Hofladen sells self-produced and regional agricultural products.
     # responsibilities:
@@ -90,7 +86,7 @@ experience:
 
   - company: German tutoring
     position: Tutor
-    date: Sep 2019 -- Jun 2020
+    date: Sep 2019 - Jun 2020
     location: Vienna, Austria
     #summary: 
     responsibilities:
