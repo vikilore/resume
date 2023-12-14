@@ -120,7 +120,8 @@ h4 {
 
 .experience_location,
 .experience_date {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--body-font);
+  font-style: normal;
   font-size: 0.8rem;
 }
 
