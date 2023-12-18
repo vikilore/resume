@@ -69,8 +69,8 @@ experience:
     date: Mar 2021 - Oct 2021
     location: Vienna, Austria
     summary: Hirschis Hofladen sells self-produced and regional agricultural products.
-    # responsibilities:
-    #   - Worked on the transition of Buddybuild to Xcode Cloud
+    #responsibilities:
+    # - 
     #   - Maintained the Buddybuild product actively until the transition was complete
 
   - company: Gärtnerei Hirschbeck
@@ -78,8 +78,8 @@ experience:
     date: Jul 2020 & Jul 2021
     location: Vienna, Austria
     summary: Gärnterei Hirschbeck is a gardening company specialized on cemetry maintainance, floristry and plant growing.
-    # responsibilities:
-    #   - Develop and maintain CI/CD solution for both iOS and Android Platforms
+    responsibilities:
+       - grave maintenance
     #   - Update and facilitate features for the Buddybuild Android SDK
     #   - Android CI/CD development and integration from start to deployment of Android projects
     #   - Provide technical support with engineers to help deploy 1000+ apps
