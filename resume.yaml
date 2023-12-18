@@ -114,8 +114,8 @@ experience:
     date: Jul 2016
     location: Vienna, Austria
     summary: Mediadoc is an all-rounder for media observation.
-    # responsibilities:
-    #   - Developed the Vonigo application on Android
+    responsibilities:
+        - Media observation, clipping
     #   - XSLT/XML to HTML development
     #   - Cross-platform hybrid architecture implementing JavaScript/CSS/HTML and native functionality
 
