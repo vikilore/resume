@@ -47,7 +47,7 @@ personalDevelopment:
     organization: Seven Film- und Postproduction, Philipp Habenicht
     summary: "Setting up cameras for different enviroments, Camera Matching, Improving camera and gimbal handling"
   - date: 10/2022 - 07/2023
-    title: "Conception, storytellinng and business dramaturgy tutoring"
+    title: "Conception, storytelling and business dramaturgy tutoring"
     organization: Marc Miletich, Sonovista
     summary: "gaining a deeper understanding of storytelling and dramaturgy, reviewing and analyzing past projects, applying inputs on recent works "
 experience:
@@ -160,13 +160,15 @@ experience:
     # responsibilities:
     #   - Designing and fixing bugs related to Customer display UI demos in Java
 skills:
-  - category: Post Production
+  - category: Software Skills
     items:
       - Adobe Premiere Pro
       - Adobe After Effects
       - Adobe Photoshop
       - Adobe Illustrator
+      - Adobe InDesign
       - Avid Pro Tools
+      - MS Office
 
   - category: Camera
     items:
